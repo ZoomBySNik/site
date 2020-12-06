@@ -12,17 +12,17 @@ body {
 }
 
 .header {
-  height: 100vh;
+  width:100%;
+  height:50vw;
   background-color: #eee;
   background-image: url(фон2.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
-  max-height: 1080;
 }
 
 .header-title {
-  font-size: 24vh;
+  font-size: 10vw;
   color: white;
   text-transform: uppercase;
   font-weight: 500;
