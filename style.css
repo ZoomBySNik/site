@@ -38,7 +38,7 @@ body {
 .content{
   font-size: 0;
   width:790px;
-  margin: 100px auto 50px;
+  margin: 100px 15% 50px;
 }
 .card {
   width: 350px;
@@ -93,7 +93,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.5vw;
 }
 
 /* Change the color of links on hover */
