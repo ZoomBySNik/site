@@ -22,7 +22,7 @@ body {
 }
 
 .header-title {
-  font-size: 10vw;
+  font-size: 8vw;
   color: white;
   text-transform: uppercase;
   font-weight: 500;
@@ -38,7 +38,7 @@ body {
 .content{
   font-size: 0;
   width:790px;
-  margin: 100px 15% 50px;
+  margin: 100px auto 50px;
 }
 .card {
   width: 350px;
@@ -62,6 +62,18 @@ body {
   color:white;
   box-shadow: 6px 6px 8px rgba(174, 41, 21, .4);
 }
+.card-aboutme {
+  width: 750px;
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding: 35px 35px 70px;
+  display: inline-block;
+  background: rgb(1,3,29);
+  color:white;
+  box-shadow: 6px 6px 8px rgba(174, 41, 21, .4);
+}
 .card-title {
   font-size: 24px;
   font-weight: 500;
@@ -69,6 +81,10 @@ body {
 }
 .card-text {
   font-size: 16px;
+}
+.card-text-pr {
+  font-size: 16px;
+  text-indent: 2vw;
 }
 .card-image {
   width:100%;
@@ -118,7 +134,48 @@ body {
   margin:auto;
   text-align: center;
 }
-a{
-	margin: 0;
-	font-weight: normal;
+a.text {
+	color: #fff;
+	text-decoration: none;
+}
+p.contacts{
+	text-align:center;
+	width:80%;
+	margin: 2vh auto;
+}
+a.vk {
+    background: url(about_me/vk.png); /* Путь к файлу с исходным  рисунком */
+    display: inline;
+    width: 48px;
+    height: 48px;
+	background-position: 0 -48px;
+	float:left; 
+    margin: 0 15px 15px 0;
+   }
+a.vk:hover {
+    background-position: 0 0px; /* Смещение фона */
+}
+a.inst {
+    background: url(about_me/inst.png); /* Путь к файлу с исходным  рисунком */
+    display: inline;
+    width: 48px;
+    height: 48px;
+	background-position: 0 -48px;
+	float:left; 
+    margin: 0 15px 15px 0;
+   }
+a.inst:hover {
+    background-position: 0 0px; /* Смещение фона */
+}
+a.post {
+    background: url(about_me/post.png); /* Путь к файлу с исходным  рисунком */
+    display: inline;
+    width: 48px;
+    height: 48px;
+	background-position: 0 0;
+	float:left; 
+    margin: 0 15px 15px 0;
+   }
+a.post:hover {
+    background-position: 0 -48px; /* Смещение фона */
 }
