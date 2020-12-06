@@ -179,3 +179,8 @@ a.post {
 a.post:hover {
     background-position: 0 -48px; /* Смещение фона */
 }
+a{
+	margin: 0;
+	font-weight: normal;
+}
+
