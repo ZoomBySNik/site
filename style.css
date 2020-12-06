@@ -38,7 +38,7 @@ body {
 .content{
   font-size: 0;
   width:790px;
-  margin: 100px 15% 50px;
+  margin: 100px auto 50px;
 }
 .card {
   width: 350px;
